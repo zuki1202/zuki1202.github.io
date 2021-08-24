@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>osumou flowers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon_white.png">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'cjm1iph',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+    
+
+</head>
+
+<body>
+
+    <div class="modal disappear" id="modal01">
+        <img src="images/item01.jpg">
+        <div class="modalContainer">
+            <div class="modalInfo">
+                <h3 style="color: rgb(238, 194, 0);">KOMUSUBI</h3>
+                <h1>アジサイ</h1>
+                <h3 style="font-weight: 300;">¥980</h3>
+                <h2 style="color: gray;">店頭でお求めいただけます</h2>
+            </div>
+            <div class="modalDesc">
+                <p>かわいいアジサイです。とてもかわいいです！あなたのおへやや玄関先におひとつ、いかがですか？</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal disappear" id="modal02">
+        <img src="images/item02.jpg">
+        <div class="modalContainer">
+            <div class="modalInfo">
+                <h3 style="color: rgb(238, 110, 110);">OZEKI</h3>
+                <h1>アソート ブーケ</h1>
+                <h3 style="font-weight: 300;">¥3,980</h3>
+                <h2 style="color: gray;">店頭でお求めいただけます</h2>
+            </div>
+            <div class="modalDesc">
+                <p>いろいろなお花をひとつの束にしてみました。今日は暖色系でまとめてみました。きになるあのひとへの贈り物に...！</p>
+            </div>
+        </div>
+    </div>
+    <div class="modal disappear" id="modal03">
+        <img src="images/item03-2.jpg">
+        <div class="modalContainer">
+            <div class="modalInfo">
+                <h3 style="color: rgb(133, 110, 238);">YOKOZUNA</h3>
+                <h1>バラ ブーケ</h1>
+                <h3 style="font-weight: 300;">¥9,800</h3>
+                <h2 style="color: gray;">店頭でお求めいただけます</h2>
+            </div>
+            <div class="modalDesc">
+                <p>最後のひと押しに！</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mask disappear" id=mask></div>
+
+
+
+    <header class="sticky" id="sticky">
+        <ul>
+            <li><a href="#top" class="button">TOP</a></li>
+            <li><a href="#flowerIndex" class="button">FLOWERS</a></li>
+            <li><a href="#aboutIndex" class="button">ABOUT</a></li>
+            <li><a href="#accessIndex" class="button">ACCESS</a></li>
+        </ul>
+    </header>
+    <header id="headerimg">
+        <div class="headerContents">
+            <!-- <img src="images/header.jpg" id="headerimg"> -->
+            <img src="images/logo_white_rect.png" width="400px"  id="logo">
+            <div class="headerInfo">
+                <p style="color: white;">＼ 店頭でお求めください ／</p>
+                <a href="#accessIndex"><div class="mapBtn">地図をみる</div></a>
+                <p style="color: white;">TEL 03-xxxx-xxxx</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <!-- <h1>osumou flowers は、日替わりでお花を楽しめるお花やさんです。</h1> -->
+        <p>osumou flowers は、おすもうさんの店主による</p>
+        <p>日替わりでお花を楽しめるお花やさんです。</p>
+    </section>
+
+    <section class="flowers" id="flowerIndex">
+        <h1>今日のお花</h1>
+        <div class="items">
+
+            <div class="item" id="item01">
+                <div class="grade grade01" style="font-weight: normal;">KOMUSUBI</div>
+                <p class="gradeDesc">日常に彩りを</p>
+                <a>
+                    <div class="itemCard">
+                        <img src="images/item01.jpg" class="itemImg">
+                        <p>アジサイ</p>
+                        <p class="price">¥980</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item" id="item02">
+                <div class="grade grade02" style="font-weight: normal;">OZEKI</div>
+                <p class="gradeDesc">ちょっとした贈り物に</p>
+                <a>
+                    <div class="itemCard">
+                        <img src="images/item02.jpg" class="itemImg">
+                        <p>アソート ブーケ</p>
+                        <p class="price">¥3,980</p>
+                    </div>
+               </a>
+            </div>
+
+            <div class="item" id="item03">
+                <div class="grade grade03" style="font-weight: normal;">YOKOZUNA</div>
+                <p class="gradeDesc">たいせつな日に</p>
+                <a>
+                    <div class="itemCard">
+                        <img src="images/item03-2.jpg" class="itemImg">
+                        <p>バラ ブーケ</p>
+                        <p class="price">¥9,800</p>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="about" id="aboutIndex">
+        <h1>osumou flowers について</h1>
+
+        <p>こんにちは。もと力士の店主です。</p>
+        <p>このたび、お花やさんをはじめることにしました。</p>
+        <p>毎日ちがった３種類のお花をご用意しておまちしています。</p>
+        <p>なにとぞ、よろしくおねがいいたします。</p>
+        <img src="images/osumousan.png" width="150px" style="margin-top: 20px;">
+    </section>
+
+    <section class="access" id="accessIndex">
+        <h1>アクセス</h1>
+
+        <div class="mapCard">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.425742079265!2d139.68624907669414!3d35.647126639309995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4ad501810c5%3A0xa6891c9764a2651b!2z44CSMTUzLTAwNDMg5p2x5Lqs6YO955uu6buS5Yy65p2x5bGx!5e0!3m2!1sja!2sjp!4v1629541857588!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+            <div style="text-align: start;" class="accessText">
+                <p>東京都目黒区東山x-x-x</p>
+                <p>TEL 03-xxxx-xxxx</p>
+                <p>11:00-20:00 （月曜休）</p>
+                <p style="font-size: 15px;">当店は完全キャッシュレス決済を採用しています。現金でのお支払いはできかねますので予めご了承ください。</p>
+                <!-- <p style="font-size: 15px;">当店は完全キャッシュレス決済を採用しています。</p> -->
+                <div class="accessBtns">
+                    <a href=""><div class="accessBtn">Google Maps で開く</div></a>
+                    <a href=""><div class="accessBtn">電話する</div></a>
+                </div>
+            </div>
+        </div>
+        <!-- <div style="margin-top: 20px;"><a href="" style="color: rgb(73, 158, 255);">Google マップでみる</a></div> -->
+
+    </section>
+
+    <footer>© osumou flowers</footer>
+
+
+
+</body>
+<script src="JS/main.js"></script>
+</html>
